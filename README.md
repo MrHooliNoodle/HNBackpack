@@ -72,7 +72,8 @@ Go into ox_inventory/data/items.lua and add all of these if you want different c
 Go into ox_inventory/modules/items/containers.lua and add all of these if you want different colored backpacks:
 You can configure how many slots you want, how much weight, whitelisted items, or blacklisted items!
 
-	setContainerProperties('backpackgrey', {
+```
+setContainerProperties('backpackgrey', {
 		slots = 25,
 		maxWeight = 200000,
 })
@@ -96,6 +97,7 @@ setContainerProperties('backpackpurple', {
 		slots = 25,
 		maxWeight = 200000,
 })
+```
 
 # Fourth step:
 Put all files into resources folder
@@ -103,7 +105,9 @@ Put all files into resources folder
 # Fifth step:
 Go into server.cfg and add this line:
 
+```
 ensure hn_backpack
+```
 
 # Sixth step:
 Restart your server and enjoy!
