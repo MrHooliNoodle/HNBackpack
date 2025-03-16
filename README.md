@@ -3,6 +3,7 @@ THIS IS MOSTLY NOT MY CODE, AND I WILL NOT PROVIDE SUPPORT!
 
 # DEPENDENCIES:
 ox_inventory
+
 es_extended/qb-core
 
 # First step:
