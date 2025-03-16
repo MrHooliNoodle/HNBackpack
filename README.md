@@ -12,7 +12,7 @@ Go into ox_inventory/web/images and put all images from INSTALLATION into the fo
 # Second step:
 Go into ox_inventory/data/items.lua and add all of these if you want different colored backpacks:
 
-	['backpackgrey'] = {
+    ['backpackgrey'] = {
 		label = 'Grey Backpack',
 		weight = 10000,
 		stack = false,
@@ -29,7 +29,7 @@ Go into ox_inventory/data/items.lua and add all of these if you want different c
 		stack = false,
 		consume = 0,
 		client = {
-			image = "backpackgrey.png",
+			image = "backpackred.png",
 			export = 'hn_backpack.openBackpack'
 		}
 	},
@@ -40,7 +40,7 @@ Go into ox_inventory/data/items.lua and add all of these if you want different c
 		stack = false,
 		consume = 0,
 		client = {
-			image = "backpackgrey.png",
+			image = "backpackblue.png",
 			export = 'hn_backpack.openBackpack'
 		}
 	},
@@ -51,7 +51,7 @@ Go into ox_inventory/data/items.lua and add all of these if you want different c
 		stack = false,
 		consume = 0,
 		client = {
-			image = "backpackgrey.png",
+			image = "backpackgreen.png",
 			export = 'hn_backpack.openBackpack'
 		}
 	},
@@ -62,7 +62,7 @@ Go into ox_inventory/data/items.lua and add all of these if you want different c
 		stack = false,
 		consume = 0,
 		client = {
-			image = "backpackgrey.png",
+			image = "backpackpurple.png",
 			export = 'hn_backpack.openBackpack'
 		}
 	},
